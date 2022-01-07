@@ -18,15 +18,28 @@
                     <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEN7PNFWbHtDw/profile-displayphoto-shrink_200_200/0/1637515214312?e=1646870400&v=beta&t=Nf3RAIS3df71J540Dx1UKGa_msVEGf3w5oLTPO7YWf8" />
                     <h1>Nathan Diogo</h1>
                     <h2> I'm developer student </h2>
+                    
+                    <script>
+                        function typeWriter(elemento) {
+                          const textoArray = elemento.innerHTML.split('');
+                          elemento.innerHTML = '';
+                          textoArray.forEach((letra, i) => {
+                            setTimeout(() => elemento.innerHTML += letra, 105 * i);
+                          });
+                        }
+
+                        const titulo = document.querySelector('h2');
+                        typeWriter(titulo);
+                      </script>
+
                 </div>
             
                 <div class="git">
-                    <img src= "https://github-readme-stats.vercel.app/api?username=NathanDG&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+                    <img src= "https://github-readme-stats.vercel.app/api?username=NathanDG&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
                     <img src = "https://github-readme-streak-stats.herokuapp.com?user=NathanDG&theme=dark&hide_border=false">
                 </div>
 
                 <div class="contato">
-                    <a href = "mailto:nathan_diogo1@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
                     <a href="https://www.linkedin.com/in/nathandiogo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank""></a>
                 </div>
             <div>           
