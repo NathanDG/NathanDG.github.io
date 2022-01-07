@@ -1,3 +1,7 @@
+.body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/Bqh3Ks5iubYLvQ95SPW6adOlfU83FBkiYYUlpLgMT-6Q0CPYR3xTIkmCLrmwQRONjNZU_e2cRrnPzX-wFWvQoGW9NlE);
+}
+
 .container {
     background-image: url(../files/img.jpg);
     background-position: center center;
@@ -18,7 +22,7 @@
     max-width: 1200px;
     max-height: 300px;
     padding-bottom: 50px;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 .painelsuperior h1{
@@ -48,6 +52,7 @@
 
 .contato {
     padding: 0;
+    margin-top: 50px;
 }
 
 .contato img{

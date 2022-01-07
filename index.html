@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/style.css"/>
     </head>
 
-    <body bgcolor="#010409">  
+    <body bgcolor="#010409" class="body">  
 
         <div align="center" class="fundo">
         
@@ -24,7 +24,7 @@
                           const textoArray = elemento.innerHTML.split('');
                           elemento.innerHTML = '';
                           textoArray.forEach((letra, i) => {
-                            setTimeout(() => elemento.innerHTML += letra, 105 * i);
+                            setTimeout(() => elemento.innerHTML += letra, 150 * i);
                           });
                         }
 
