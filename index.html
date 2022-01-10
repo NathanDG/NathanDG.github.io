@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
-    <head>
-        <title>nathandg</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale1">
-        <link rel="stylesheet" href="css/style.css"/>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nathandg</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    <body bgcolor="#010409" class="body">  
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="imagens/Logo-300px.png" alt="logo da comunidade" />
+        <nav class="cabecalho-nav">
+            <a class="cabecalho-menu" href="#home">Home</a>
+            <a class="cabecalho-menu" href="#sobremin">Sobre</a>
+            <a class="cabecalho-menu" href="#contato">Contato</a>
+        </nav>
+    </header>
 
-        <div align="center" class="fundo">
-        
-            <div class="container">
-                <div class="painelsuperior">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEN7PNFWbHtDw/profile-displayphoto-shrink_200_200/0/1637515214312?e=1646870400&v=beta&t=Nf3RAIS3df71J540Dx1UKGa_msVEGf3w5oLTPO7YWf8" />
-                    <h1>Nathan Diogo</h1>
-                    <h2> I'm developer student </h2>
-                    
-                    <script>
-                        function typeWriter(elemento) {
-                          const textoArray = elemento.innerHTML.split('');
-                          elemento.innerHTML = '';
-                          textoArray.forEach((letra, i) => {
-                            setTimeout(() => elemento.innerHTML += letra, 150 * i);
-                          });
-                        }
+    <main class="conteudo">
 
-                        const titulo = document.querySelector('h2');
-                        typeWriter(titulo);
-                      </script>
+        <section class="conteudo-p" id="home">
+            <div class="conteudo-p-text">
+                <h1 class="conteudo-p-text-titulo">Nathan Diogo</h1>
+                <h2 class="conteudo-p-text-subtitulo">Estudante de programação, apaixonado pela inovação</h2>
+                <a href="#contato"><button class="conteudo-p-text-btn">Contato</button></a>
+            </div>
+            <div class="conteudo-p-git">
+                <img class="conteudo-p-git-imag"
+                    src="https://github-readme-stats.vercel.app/api?username=NathanDG&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+                <img class="conteudo-p-git-imag" src="https://github-readme-streak-stats.herokuapp.com?user=NathanDG&theme=dark&hide_border=false">
+            </div>
+        </section>
 
-                </div>
-            
-                <div class="git">
-                    <img src= "https://github-readme-stats.vercel.app/api?username=NathanDG&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-                    <img src = "https://github-readme-streak-stats.herokuapp.com?user=NathanDG&theme=dark&hide_border=false">
-                </div>
+        <section class="conteudo-s" id="sobremin">
+            <h3 class="conteudo-s-titulo">Quem sou eu?</h3>
+            <div class="conteudo-s-div">
+                <img class="conteudo-s-img"
+                    src="https://media-exp1.licdn.com/dms/image/C4E03AQEN7PNFWbHtDw/profile-displayphoto-shrink_800_800/0/1637515214312?e=1647475200&v=beta&t=LpTHpJmerhYmLU8BaejqsUS6bZerTJ5mVgUt-7oO02Y"
+                    alt="Foto perfil">
+                <p class="conteudo-s-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit harum voluptas quis illo officia? Delectus natus totam provident veritatis rerum, laborum tempora minima nihil fuga vero dignissimos neque molestiae excepturi.</p>
+            </div>
+        </section>
+        <section class="conteudo-contato" id="contato">
+            <h3 class="conteudo-contato-titulo">Onde me encontrar?</h3>
+            <div class="conteudo-contato-div">
+                <a href="https://github.com/nathandg"><img class="conteudo-contato-links"
+                        src="imagens/icons/github-icon.png" alt="github"></a>
+                <a href="https://www.linkedin.com/in/nathandiogo/"><img class="conteudo-contato-links"
+                        src="imagens/icons/linkedin-icon.png" alt="linkedin"></a>
+                <a href="mailto:nathan_diogo1@hotmail.com"><img class="conteudo-contato-links"
+                        src="imagens/icons/email-2-icon.png" alt="Email"></a>
+            </div>
+        </section>
+    </main>
 
-                <div class="contato">
-                    <a href="https://www.linkedin.com/in/nathandiogo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-                </div>
-            <div>           
-            
-        </div>
+    <footer class="rodape">
+        <img class="rodape-img" src="imagens/Logodireitos400.png" alt="Logo footer">
+    </footer>
+</body>
 
-    </body>
-
-</html> 
+</html>
