@@ -200,9 +200,12 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 1366px) {
   .conteudo-p-git {
     width: 50%;
+  }
+  .conteudo-s-div{
+    margin: 20vh 10vw;
   }
 }
 
@@ -246,7 +249,7 @@ body {
   .conteudo-s-div {
     flex-direction: column;
     width: 90vw;
-    margin: 50px 0 0 0;
+    margin: 50px 0 0px 0;
   }
   .conteudo-s-img {
     width: 50vw;
