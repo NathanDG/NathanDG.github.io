@@ -11,7 +11,7 @@ body {
   font-size: 100%;
   background: linear-gradient(
     1deg,
-    rgb(185, 13, 148) 10%,
+    rgb(39, 2, 53) 10%,
     rgba(9, 102, 121, 1) 45%,
     rgb(70, 28, 117) 80%,
     rgb(148, 5, 177) 100%
@@ -182,11 +182,11 @@ body {
   margin: 24vh 15vw;
 }
 .conteudo-contato-links {
-  border-radius: 100%;
-  box-shadow: 4px 2px 10px #383838;
+  border-radius: 10%;
+  box-shadow: 0px 0px 30px #67276ebb;
 }
 .conteudo-contato-links:hover {
-  border-radius: 10%;
+  box-shadow: 0px 0px 35px #67276e;
 }
 
 .rodape {
